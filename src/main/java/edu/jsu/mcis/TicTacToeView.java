@@ -17,6 +17,15 @@ public class TicTacToeView {
         /* Print the board to the console (see examples) */
         
         /* INSERT YOUR CODE HERE */
+        System.out.println("----------------------------");
+        for (int r=0; r < width; r++){
+            System.out.print("|  ");
+            for(int c=0; c<width; c++){
+                System.out.print(grid[r][c] + " | ");
+            }
+            System.out.println();
+            System.out.println("--------------------------");
+        }
 
     }
 
@@ -25,6 +34,11 @@ public class TicTacToeView {
         /* Display a prompt for the player's next move (see examples) */
 
         /* INSERT YOUR CODE HERE */
+        if(Model.xTurn = True){
+
+        System.out.println("It is now X players turn.");}
+        else
+            System.out.println("it is O players turn.");
 
     }
 
@@ -33,6 +47,9 @@ public class TicTacToeView {
         /* Display an error if input is invalid (see examples) */
 
         /* INSERT YOUR CODE HERE */
+        if(grid.position[row][col]!=isSquareValid){
+            System.out.print("Please select another cooridnate");
+        }
 
     }
 

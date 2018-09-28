@@ -35,7 +35,17 @@ public class TicTacToeController {
            error message using view's showInputError() if input is invalid. */
         
         /* INSERT YOUR CODE HERE */
+        System.out.println("Please input your row coordinate: " + num);
+        int num = in.nextInt();
         
+        System.out.println("Please input your column coordinate: " + num2);
+        int num2 = in.nextInt
+        if(num1 = model.grid.row.value && num2=model.grid.col.value && model.grid[row][col]=model.isValidSquare==true && model.xTurn==true){
+            model.makeMark(x);
+        }
+        else{
+            model.makeMark(o);
+        }
     }
 
 }
